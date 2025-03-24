@@ -77,4 +77,87 @@
         android:layout_marginHorizontal="15dp"
         android:textColorHint="@color/branco"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo:"
+        android:textSize="20sp"
+        android:textColor="@color/cinzaescuro"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp">
+        <RadioButton
+            android:id="@+id/rb_masculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/masculino"
+            android:textSize="20sp"
+            android:textColor="@color/cinzaescuro"/>
+        <RadioButton
+            android:id="@+id/rb_feminino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feminino"
+            android:textSize="20sp"
+            android:textColor="@color/cinzaescuro"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Serviços"
+        android:textColor="@color/dourado"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/ckb_musculacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Musculação"
+            android:textColor="@color/cinzaescuro"
+            android:textSize="15sp"/>
+        <CheckBox
+            android:id="@+id/ckb_natacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natação"
+            android:textColor="@color/cinzaescuro"
+            android:textSize="15sp"/>
+        <CheckBox
+            android:id="@+id/ckb_zumba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zumba"
+            android:textColor="@color/cinzaescuro"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switch_receberEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receber promoções no email"
+        android:textSize="20sp"
+        android:textColor="@color/cinzaescuro"
+        android:layout_marginStart="15dp"/>
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
 </LinearLayout>

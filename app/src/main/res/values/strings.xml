@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FitNerd</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
 </resources>
